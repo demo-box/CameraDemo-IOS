@@ -20,7 +20,10 @@ class ViewController: UIViewController {
     @IBAction func pickImage(_ sender: Any) {
         // 模拟器没有camera，直接return
         guard UIImagePickerController.isSourceTypeAvailable(.camera) else {
-            print("source type camera 不可用")
+            let errorAlert = UIAlertController(title: "相机不可用", message: "", preferredStyle: .alert)
+            let cancelAction = UIAlertAction(title: "取消", style: .cancel, handler: nil)
+            errorAlert.addAction(cancelAction)
+            self.present(errorAlert, animated: true, completion: nil)
             return
         }
         
