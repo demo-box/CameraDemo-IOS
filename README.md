@@ -8,3 +8,5 @@ IOS camera相关demo
 * https://blog.csdn.net/lixianyue1991/article/details/70894982
 * https://blog.csdn.net/wangjunling888/article/details/51089152
 * https://www.cnblogs.com/billowss/p/QNCapture.html
+* https://blog.csdn.net/sps900608/article/details/51555955
+* 精通ios开发(第8版)
